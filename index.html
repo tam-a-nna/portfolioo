@@ -3,123 +3,121 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fahmida Chowdhury • Portfolio</title>
+  <title>Fahmida Chowdhury | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
+
   <!-- Header -->
-  <header class="header">
-    <div class="container header-inner">
-      <div class="logo">Fahmida<span>.</span></div>
-      <nav class="nav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-    </div>
+  <header>
+    <a href="#home" class="logo">Tamanna</a>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
   <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="hero-content container">
-      <div class="text">
-        <h1>Hi, I’m <span>Fahmida Chowdhury</span></h1>
-        <h3>Software Engineering Student | Aspiring UI/UX Designer</h3>
-        <p>
-          I’m a passionate Software Engineering student with a growing interest in UI/UX design and mobile app development. 
-          My goal is to become a creative designer who builds intuitive and delightful digital experiences.
-          I love turning ideas into reality through thoughtful design and code.
-        </p>
-        <a href="#projects" class="btn">View My Projects</a>
-      </div>
-      <div class="image">
-        <img src="images/profile.jpg" alt="Fahmida Profile">
-      </div>
+  <section class="home" id="home">
+    <div class="home-img">
+      <img src="images/profile.jpeg" alt="Fahmida Chowdhury Tamanna">
     </div>
-  </section>
+    <div class="home-content">
+      <h1>Hi, I'm <span>Fahmida Chowdhury Tamanna</span></h1>
+      <h3 class="typewriter"><span>Software Engineering Student | Anchor</span></h3>
+      <p>Hi, I'm Fahmida Chowdhury Tamanna — a Software Engineering student who loves creating things that are both functional and visually appealing.
 
-  <!-- About -->
-  <section id="about" class="section about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        I’m currently a 3rd-year Software Engineering student passionate about creating user-friendly, aesthetic, and impactful solutions.
-        My design approach balances creativity and logic — I believe technology should feel intuitive, not complex.
-      </p>
-    </div>
-  </section>
+I enjoy developing Android applications using Java, XML, and Firebase, combining creativity and logic to deliver smooth, user-friendly experiences. Projects like TripEase and Quizio helped me learn how ideas can evolve into real, working applications.
 
-  <!-- Skills -->
-  <section id="skills" class="section skills">
-    <div class="container">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div class="skill">HTML5 / CSS3</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">Java / C++</div>
-        <div class="skill">Android Studio</div>
-        <div class="skill">UI / UX Design</div>
-        <div class="skill">Figma / Canva</div>
+Besides coding, I also take part in anchoring programs, which has improved my confidence, communication, and presentation skills — qualities that complement my work as a developer.</p>
+
+      <div class="hero-buttons">
+        <a href="Fahmida_Chowdhury_CV.pdf" target="_blank" class="btn cv-btn">View CV</a>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/fahmida" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/fahmida" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://github.com/tam-a-nna" target="_blank"><i class="fa-brands fa-github"></i></a>
       </div>
     </div>
   </section>
 
-  <!-- Projects -->
-  <section id="projects" class="section projects">
-    <div class="container">
-      <h2>Featured Projects</h2>
-      <div class="project-grid">
+  <!-- About Section -->
+  <section id="about" class="section-layer">
+    <h2>About Me</h2>
+    <p>I’m a dedicated Software Engineering student exploring UI/UX and mobile app development. I aim to create innovative, user-friendly digital solutions. Beyond tech, I actively host events and programs, enhancing leadership and communication skills professionally.</p>
+  </section>
 
-        <div class="project-card">
-          <img src="images/tripease.png" alt="TripEase Project">
-          <div class="project-info">
-            <h3>TripEase</h3>
-            <p>A travel planning app designed for smooth itinerary creation and trip management.</p>
+  <!-- Projects Section -->
+  <section id="projects" class="section-layer">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <img src="images/tripease.png" alt="TripEase">
+        <div class="project-content">
+          <h3>TripEase</h3>
+          <div class="tech-used">
+            <span>Java</span><span>Android Studio</span><span>XML</span><span>Firebase</span><span>Git</span>
           </div>
+          <p>A travel planning app simplifying trip organization. Features itinerary creation, hotel & transport tracking, and smooth UI navigation.</p>
+          <a href="#" class="project-btn">View Details</a>
         </div>
-
-        <div class="project-card">
-          <img src="images/quizify.png" alt="Quizify App">
-          <div class="project-info">
-            <h3>Quizify</h3>
-            <p>An engaging quiz app designed to make learning fun and interactive.</p>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img src="images/bill.png" alt="Bill Management System">
-          <div class="project-info">
-            <h3>Bill Management System</h3>
-            <p>A system to manage, track, and analyze bills and expenses efficiently.</p>
-          </div>
-        </div>
-
       </div>
+
+      <div class="project-card">
+        <img src="images/quiz.jpeg" alt="Quizio">
+        <div class="project-content">
+          <h3>Quizio</h3>
+          <div class="tech-used">
+            <span>Java</span><span>Android Studio</span><span>XML</span><span>Git</span>
+          </div>
+          <p>Interactive quiz app covering Science, Math, and GK. Future feature: users can create custom quizzes on any topic.</p>
+          <a href="#" class="project-btn">View Details</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/bill.png" alt="Bill Management System">
+        <div class="project-content">
+          <h3>Bill Management System</h3>
+          <div class="tech-used">
+            <span>Python</span><span>GUI</span><span>Git</span>
+          </div>
+          <p>Python GUI app to calculate bills for canteens or small hotels. Provides simple, accurate, and user-friendly billing management.</p>
+          <a href="#" class="project-btn">View Details</a>
+        </div>
+      </div>
+
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="section contact">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <p>Let’s connect and build something amazing together!</p>
-      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-      <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
-      <p>GitHub: <a href="#">github.com/yourusername</a></p>
-    </div>
+  <!-- Skills Section -->
+  <section id="skills" class="section-layer">
+    <h2>Technical Skills</h2>
+    <p>C, C++, Python, Java, HTML, CSS, Android Studio, Firebase, Git/GitHub</p>
   </section>
 
-  <footer class="footer">
-    <p>© 2025 Fahmida Chowdhury. All Rights Reserved.</p>
+  <!-- Contact Section -->
+  <section id="contact" class="section-layer">
+    <h2>Reach Me</h2>
+    <form class="contact-form" action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Fahmida Chowdhury. All rights reserved.</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
