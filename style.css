@@ -15,7 +15,7 @@ body{
   position: relative;
 }
 
-/* Animated gradient background */
+/* background */
 body::before{
   content:"";
   position:fixed;
@@ -92,7 +92,7 @@ section{
   z-index:-1;
 }
 
-/* Titles */
+/* titles */
 h2{
   font-size:2rem;
   margin-bottom:2rem;
@@ -101,7 +101,7 @@ h2{
   letter-spacing:1px;
 }
 
-/* Hero */
+
 .home{
   display:flex;
   justify-content:center;
@@ -182,7 +182,7 @@ h2{
   box-shadow:0 0 20px #8e44ad;
 }
 
-/* Social icons */
+/* icons */
 .social-icons{
   margin-top:1rem;
 }
@@ -205,7 +205,7 @@ h2{
   color:#fff;
 }
 
-/* Projects */
+/* my projects */
 .projects-grid{
   display:flex;
   flex-wrap:wrap;
@@ -259,7 +259,7 @@ h2{
   color:#8e44ad;
 }
 
-/* Tech badges under projects */
+
 .tech-used{
   display:flex;
   flex-wrap:wrap;
@@ -277,7 +277,7 @@ h2{
   font-weight:500;
 }
 
-/* Skills Section */
+/* Skills*/
 #skills p{
   text-align:center;
   font-size:1.3rem;
@@ -285,7 +285,7 @@ h2{
   margin-top:1rem;
 }
 
-/* Contact / Reach Me Form */
+/* Contact Me  */
 .contact-form{
   max-width:500px;
   margin:2rem auto 0 auto;
@@ -322,7 +322,7 @@ h2{
   box-shadow:0 0 15px #8e44ad;
 }
 
-/* Contact Info */
+/*  Info */
 .contact-info p{
   text-align:center;
   margin-bottom:0.5rem;
@@ -337,7 +337,7 @@ footer{
   box-shadow:0 -2px 10px rgba(0,0,0,0.2);
 }
 
-/* Responsive */
+
 @media(max-width:768px){
   .home{
     flex-direction:column;
