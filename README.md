@@ -15,5 +15,5 @@ Visit: https://tam-a-nna.github.io/portfolioo/
 - CSS3
 
 ## Setup
-1. Clone the repo: `git clone https://github.com/yourusername/portfolioo.git`
+1. Clone the repo: `git clone https://github.com/tam-a-nna/portfolioo.git
 2. Open `index.html` in your browser
