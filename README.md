@@ -11,8 +11,8 @@ My personal portfolio website showcasing my work and skills.
 Visit: https://tam-a-nna.github.io/portfolioo/
 
 ## Technologies
-- HTML5
-- CSS3
+- HTML
+- CSS
 
 ## Setup
 1. Clone the repo: `git clone https://github.com/tam-a-nna/portfolioo.git
